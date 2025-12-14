@@ -32,14 +32,14 @@ namespace Factorial
 		
 		void BtnAplicarClick(object sender, EventArgs e)
 		{
-			int n = Convert.ToInt32(txtNum.Text);
+			long n = Convert.ToInt32(txtNum.Text);
 			if(n <= 0){
 				MessageBox.Show("El numero a ingresar debe ser positivo");
 			}
-			int m = n;
+			long m = n;
 			lbFac.Items.Add(n);
-			for(int i = n-1;i>1;i--){
-				m = m = m * i;
+			for(long i = n-1;i>1;i--){
+				m = m * i;
 				lbFac.Items.Add(m);
 				
 			}

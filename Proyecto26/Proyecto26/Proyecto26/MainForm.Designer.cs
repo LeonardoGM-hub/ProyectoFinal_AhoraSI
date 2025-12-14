@@ -298,8 +298,9 @@ namespace Proyecto26
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(115, 59);
 			this.button3.TabIndex = 25;
-			this.button3.Text = "Guardar";
+			this.button3.Text = "Imprimir";
 			this.button3.UseVisualStyleBackColor = false;
+			this.button3.Click += new System.EventHandler(this.Button3Click);
 			// 
 			// btnBorrar
 			// 
@@ -321,6 +322,7 @@ namespace Proyecto26
 			this.btnSalir.TabIndex = 27;
 			this.btnSalir.Text = "Salir";
 			this.btnSalir.UseVisualStyleBackColor = false;
+			this.btnSalir.Click += new System.EventHandler(this.BtnSalirClick);
 			// 
 			// MainForm
 			// 

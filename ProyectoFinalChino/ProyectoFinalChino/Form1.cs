@@ -120,7 +120,9 @@ namespace ProyectoFinalChino
 		
 		void ConversionesToolStripMenuItemClick(object sender, EventArgs e)
 		{
-			
+			Conversion.MainForm frmConversion = new Conversion.MainForm();
+			frmConversion.MdiParent=this;
+			frmConversion.Show();
 		}
 		
 		void EmpleadosToolStripMenuItemClick(object sender, EventArgs e)
