@@ -74,72 +74,72 @@ namespace Empleados
 			// label1
 			// 
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(16, 11);
+			this.label1.Location = new System.Drawing.Point(18, 14);
 			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(276, 28);
+			this.label1.Size = new System.Drawing.Size(310, 35);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "DETALLES DEL EMPLEADO";
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(17, 60);
+			this.label2.Location = new System.Drawing.Point(19, 75);
 			this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(172, 28);
+			this.label2.Size = new System.Drawing.Size(194, 35);
 			this.label2.TabIndex = 1;
 			this.label2.Text = "Codigo del empleado: ";
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(17, 94);
+			this.label3.Location = new System.Drawing.Point(19, 118);
 			this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(155, 28);
+			this.label3.Size = new System.Drawing.Size(174, 35);
 			this.label3.TabIndex = 2;
 			this.label3.Text = "Nombre del empleado: ";
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(17, 143);
+			this.label4.Location = new System.Drawing.Point(19, 179);
 			this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(133, 28);
+			this.label4.Size = new System.Drawing.Size(150, 35);
 			this.label4.TabIndex = 3;
 			this.label4.Text = "Puesto:";
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(16, 192);
+			this.label5.Location = new System.Drawing.Point(18, 240);
 			this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(155, 30);
+			this.label5.Size = new System.Drawing.Size(174, 38);
 			this.label5.TabIndex = 4;
 			this.label5.Text = "Fecha de nacimiento:";
 			// 
 			// label6
 			// 
-			this.label6.Location = new System.Drawing.Point(16, 289);
+			this.label6.Location = new System.Drawing.Point(18, 361);
 			this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(133, 28);
+			this.label6.Size = new System.Drawing.Size(74, 35);
 			this.label6.TabIndex = 5;
 			this.label6.Text = "Estado:";
 			// 
 			// txtCodigo
 			// 
-			this.txtCodigo.Location = new System.Drawing.Point(197, 57);
-			this.txtCodigo.Margin = new System.Windows.Forms.Padding(4);
+			this.txtCodigo.Location = new System.Drawing.Point(253, 72);
+			this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.txtCodigo.Name = "txtCodigo";
-			this.txtCodigo.Size = new System.Drawing.Size(132, 22);
+			this.txtCodigo.Size = new System.Drawing.Size(148, 26);
 			this.txtCodigo.TabIndex = 6;
 			// 
 			// txtNombre
 			// 
-			this.txtNombre.Location = new System.Drawing.Point(197, 90);
-			this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
+			this.txtNombre.Location = new System.Drawing.Point(253, 115);
+			this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.txtNombre.Name = "txtNombre";
-			this.txtNombre.Size = new System.Drawing.Size(132, 22);
+			this.txtNombre.Size = new System.Drawing.Size(148, 26);
 			this.txtNombre.TabIndex = 7;
 			// 
 			// cmbPuesto
@@ -151,18 +151,18 @@ namespace Empleados
 									"Asistente personal",
 									"Analista",
 									"Gerente de recursos"});
-			this.cmbPuesto.Location = new System.Drawing.Point(91, 139);
-			this.cmbPuesto.Margin = new System.Windows.Forms.Padding(4);
+			this.cmbPuesto.Location = new System.Drawing.Point(221, 179);
+			this.cmbPuesto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.cmbPuesto.Name = "cmbPuesto";
-			this.cmbPuesto.Size = new System.Drawing.Size(160, 24);
+			this.cmbPuesto.Size = new System.Drawing.Size(180, 28);
 			this.cmbPuesto.TabIndex = 8;
 			// 
 			// txtFecha
 			// 
-			this.txtFecha.Location = new System.Drawing.Point(179, 188);
-			this.txtFecha.Margin = new System.Windows.Forms.Padding(4);
+			this.txtFecha.Location = new System.Drawing.Point(221, 237);
+			this.txtFecha.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.txtFecha.Name = "txtFecha";
-			this.txtFecha.Size = new System.Drawing.Size(132, 22);
+			this.txtFecha.Size = new System.Drawing.Size(148, 26);
 			this.txtFecha.TabIndex = 9;
 			// 
 			// cmbSexo
@@ -171,38 +171,38 @@ namespace Empleados
 			this.cmbSexo.Items.AddRange(new object[] {
 									"Masculino",
 									"Femenino"});
-			this.cmbSexo.Location = new System.Drawing.Point(91, 241);
-			this.cmbSexo.Margin = new System.Windows.Forms.Padding(4);
+			this.cmbSexo.Location = new System.Drawing.Point(102, 301);
+			this.cmbSexo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.cmbSexo.Name = "cmbSexo";
-			this.cmbSexo.Size = new System.Drawing.Size(160, 24);
+			this.cmbSexo.Size = new System.Drawing.Size(180, 28);
 			this.cmbSexo.TabIndex = 10;
 			// 
 			// label7
 			// 
-			this.label7.Location = new System.Drawing.Point(17, 241);
+			this.label7.Location = new System.Drawing.Point(19, 301);
 			this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(65, 28);
+			this.label7.Size = new System.Drawing.Size(73, 35);
 			this.label7.TabIndex = 11;
 			this.label7.Text = "Sexo:";
 			// 
 			// pbEmpleado
 			// 
 			this.pbEmpleado.Image = ((System.Drawing.Image)(resources.GetObject("pbEmpleado.Image")));
-			this.pbEmpleado.Location = new System.Drawing.Point(389, 28);
-			this.pbEmpleado.Margin = new System.Windows.Forms.Padding(4);
+			this.pbEmpleado.Location = new System.Drawing.Point(438, 35);
+			this.pbEmpleado.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.pbEmpleado.Name = "pbEmpleado";
-			this.pbEmpleado.Size = new System.Drawing.Size(179, 156);
+			this.pbEmpleado.Size = new System.Drawing.Size(201, 195);
 			this.pbEmpleado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pbEmpleado.TabIndex = 12;
 			this.pbEmpleado.TabStop = false;
 			// 
 			// btnActualizar
 			// 
-			this.btnActualizar.Location = new System.Drawing.Point(377, 193);
-			this.btnActualizar.Margin = new System.Windows.Forms.Padding(4);
+			this.btnActualizar.Location = new System.Drawing.Point(424, 241);
+			this.btnActualizar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.btnActualizar.Name = "btnActualizar";
-			this.btnActualizar.Size = new System.Drawing.Size(100, 28);
+			this.btnActualizar.Size = new System.Drawing.Size(112, 35);
 			this.btnActualizar.TabIndex = 13;
 			this.btnActualizar.Text = "Actualizar";
 			this.btnActualizar.UseVisualStyleBackColor = true;
@@ -210,10 +210,10 @@ namespace Empleados
 			// 
 			// btnQuitar
 			// 
-			this.btnQuitar.Location = new System.Drawing.Point(485, 192);
-			this.btnQuitar.Margin = new System.Windows.Forms.Padding(4);
+			this.btnQuitar.Location = new System.Drawing.Point(546, 240);
+			this.btnQuitar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.btnQuitar.Name = "btnQuitar";
-			this.btnQuitar.Size = new System.Drawing.Size(100, 28);
+			this.btnQuitar.Size = new System.Drawing.Size(112, 35);
 			this.btnQuitar.TabIndex = 14;
 			this.btnQuitar.Text = "Quitar";
 			this.btnQuitar.UseVisualStyleBackColor = true;
@@ -229,10 +229,10 @@ namespace Empleados
 									this.FechaNac,
 									this.Sexo,
 									this.Estado});
-			this.dgvDatos.Location = new System.Drawing.Point(17, 321);
-			this.dgvDatos.Margin = new System.Windows.Forms.Padding(4);
+			this.dgvDatos.Location = new System.Drawing.Point(19, 401);
+			this.dgvDatos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.dgvDatos.Name = "dgvDatos";
-			this.dgvDatos.Size = new System.Drawing.Size(596, 159);
+			this.dgvDatos.Size = new System.Drawing.Size(670, 199);
 			this.dgvDatos.TabIndex = 15;
 			// 
 			// CodigoDeEmpleado
@@ -271,10 +271,10 @@ namespace Empleados
 			// 
 			// rdbRegular
 			// 
-			this.rdbRegular.Location = new System.Drawing.Point(91, 282);
-			this.rdbRegular.Margin = new System.Windows.Forms.Padding(4);
+			this.rdbRegular.Location = new System.Drawing.Point(144, 353);
+			this.rdbRegular.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.rdbRegular.Name = "rdbRegular";
-			this.rdbRegular.Size = new System.Drawing.Size(139, 30);
+			this.rdbRegular.Size = new System.Drawing.Size(111, 38);
 			this.rdbRegular.TabIndex = 16;
 			this.rdbRegular.TabStop = true;
 			this.rdbRegular.Text = "Regular";
@@ -282,10 +282,10 @@ namespace Empleados
 			// 
 			// rdbContratado
 			// 
-			this.rdbContratado.Location = new System.Drawing.Point(237, 282);
-			this.rdbContratado.Margin = new System.Windows.Forms.Padding(4);
+			this.rdbContratado.Location = new System.Drawing.Point(263, 353);
+			this.rdbContratado.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.rdbContratado.Name = "rdbContratado";
-			this.rdbContratado.Size = new System.Drawing.Size(139, 30);
+			this.rdbContratado.Size = new System.Drawing.Size(111, 38);
 			this.rdbContratado.TabIndex = 17;
 			this.rdbContratado.TabStop = true;
 			this.rdbContratado.Text = "Contrato";
@@ -293,10 +293,10 @@ namespace Empleados
 			// 
 			// btnGuardar
 			// 
-			this.btnGuardar.Location = new System.Drawing.Point(377, 240);
-			this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
+			this.btnGuardar.Location = new System.Drawing.Point(424, 300);
+			this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.btnGuardar.Name = "btnGuardar";
-			this.btnGuardar.Size = new System.Drawing.Size(100, 28);
+			this.btnGuardar.Size = new System.Drawing.Size(112, 35);
 			this.btnGuardar.TabIndex = 18;
 			this.btnGuardar.Text = "Guardar";
 			this.btnGuardar.UseVisualStyleBackColor = true;
@@ -304,10 +304,10 @@ namespace Empleados
 			// 
 			// btnEliminar
 			// 
-			this.btnEliminar.Location = new System.Drawing.Point(485, 241);
-			this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
+			this.btnEliminar.Location = new System.Drawing.Point(546, 301);
+			this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.btnEliminar.Name = "btnEliminar";
-			this.btnEliminar.Size = new System.Drawing.Size(100, 28);
+			this.btnEliminar.Size = new System.Drawing.Size(112, 35);
 			this.btnEliminar.TabIndex = 19;
 			this.btnEliminar.Text = "Eliminar";
 			this.btnEliminar.UseVisualStyleBackColor = true;
@@ -315,10 +315,10 @@ namespace Empleados
 			// 
 			// btnLimpiar
 			// 
-			this.btnLimpiar.Location = new System.Drawing.Point(440, 282);
-			this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4);
+			this.btnLimpiar.Location = new System.Drawing.Point(495, 352);
+			this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.btnLimpiar.Name = "btnLimpiar";
-			this.btnLimpiar.Size = new System.Drawing.Size(100, 28);
+			this.btnLimpiar.Size = new System.Drawing.Size(112, 35);
 			this.btnLimpiar.TabIndex = 20;
 			this.btnLimpiar.Text = "Limpiar";
 			this.btnLimpiar.UseVisualStyleBackColor = true;
@@ -326,9 +326,11 @@ namespace Empleados
 			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(633, 495);
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.ClientSize = new System.Drawing.Size(712, 619);
 			this.Controls.Add(this.btnLimpiar);
 			this.Controls.Add(this.btnEliminar);
 			this.Controls.Add(this.btnGuardar);
@@ -350,7 +352,7 @@ namespace Empleados
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
-			this.Margin = new System.Windows.Forms.Padding(4);
+			this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.Name = "MainForm";
 			this.Text = "Empleados";
 			((System.ComponentModel.ISupportInitialize)(this.pbEmpleado)).EndInit();

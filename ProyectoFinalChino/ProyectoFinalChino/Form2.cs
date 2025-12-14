@@ -1,24 +1,23 @@
 ﻿/*
  * Creado por SharpDevelop.
- * Usuario: josue
- * Fecha: 11/12/2025
- * Hora: 08:08 a. m.
+ * Usuario: Dell
+ * Fecha: 14/12/2025
+ * Hora: 09:21 a. m.
  * 
  * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
  */
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace AreaCubo
+namespace ProyectoFinalChino
 {
 	/// <summary>
-	/// Description of MainForm.
+	/// Description of Form2.
 	/// </summary>
-	public partial class MainForm : Form
+	public partial class Form2 : Form
 	{
-		public MainForm()
+		public Form2()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -32,20 +31,9 @@ namespace AreaCubo
 		
 		void Button1Click(object sender, EventArgs e)
 		{
-			double l,area;
-			l = Convert.ToDouble(txtLado.Text);
-			area = l*l;
-			label3.Text=area.ToString();
-		}
-		
-		void Button2Click(object sender, EventArgs e)
-		{
-			Close();
-		}
-		
-		void Label1Click(object sender, EventArgs e)
-		{
-			
+			Form1 f= new Form1();
+			f.Show();
+			this.Close();			
 		}
 	}
 }
