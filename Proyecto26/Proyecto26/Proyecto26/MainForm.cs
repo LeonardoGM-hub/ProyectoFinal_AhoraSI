@@ -9,6 +9,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 
 namespace Proyecto26
@@ -28,6 +29,27 @@ namespace Proyecto26
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+		}
+		public bool AgregarProducto(string Producto, double Precio, int Cantidad, double Total)
+		{
+			MySqlConnection det = new MySqlConnection();
+			det.ConnectionString = "server=127.0.0.1; database=Proyecto26; user=root; pwd=root;";
+				det.Open();
+				
+				string strSQL = "insert into Ticket (Producto, Precio, Cantidad, Total)" +
+	                 "values (@Producto, @Precio, @Cantidad, @Total)";
+	            MySqlCommand comando = new MySqlCommand(strSQL, det);
+	            comando.Parameters.AddWithValue("Producto", Producto);
+	            comando.Parameters.AddWithValue("Precio", Precio);
+	            comando.Parameters.AddWithValue("Cantidad", Cantidad);
+	            comando.Parameters.AddWithValue("Total", Total);
+            comando.ExecuteNonQuery();
+            MessageBox.Show("Producto agregado");
+            
+            comando.Dispose();
+            det.Close();
+            det.Dispose();
+            return true;
 		}
 		Dictionary<string, decimal> preciosProductos = new Dictionary<string, decimal>()
 			{
@@ -160,6 +182,23 @@ namespace Proyecto26
 				    txtDescuento.Clear();
 				    txtImporte.Clear();
 				    cmbProductos.SelectedIndex = -1;
+		}
+		void BtnSalirClick(object sender, EventArgs e)
+		{
+			this.Close();
+		}
+		void Button3Click(object sender, EventArgs e)
+		{
+			foreach (ListViewItem item in listView1.Items)
+   			 {
+		        string producto = item.SubItems[0].Text;
+		        double precio = Convert.ToDouble(item.SubItems[1].Text);
+		        int cantidad = Convert.ToInt32(item.SubItems[2].Text);
+		        double total = Convert.ToDouble(item.SubItems[3].Text);
+
+			    AgregarProducto(producto, precio, cantidad, total);
+			 }
+		    MessageBox.Show("Su ticket se ha guardado en la base de datos e impreso");
 		}
 	}
 }

@@ -35,7 +35,7 @@ namespace VolumenCubo
 			int l=Convert.ToInt32(textBox1.Text);
 			int res;
 			res = l*l*l;
-			label3.Text=res.ToString("m");
+			label3.Text=res.ToString();
 			
 		}
 	}

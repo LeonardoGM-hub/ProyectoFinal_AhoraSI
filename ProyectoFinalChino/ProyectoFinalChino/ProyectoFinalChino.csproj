@@ -90,6 +90,10 @@
       <Project>{8D29B70C-DEE0-4EB2-B8F0-8D88EB8AA945}</Project>
       <Name>boleta de calificaciones</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Conversion\Conversion\Conversion.csproj">
+      <Project>{f30326c9-addf-4f6d-9954-3813dfde9c2c}</Project>
+      <Name>Conversion</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Empleados\Empleados\Empleados\Empleados.csproj">
       <Project>{B75998A7-7D74-4687-B735-D730745308B5}</Project>
       <Name>Empleados</Name>
