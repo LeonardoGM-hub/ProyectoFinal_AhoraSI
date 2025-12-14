@@ -50,42 +50,45 @@ namespace AreaCubo
 			// label1
 			// 
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(12, 9);
+			this.label1.Location = new System.Drawing.Point(12, 11);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(258, 23);
+			this.label1.Size = new System.Drawing.Size(233, 29);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "introducir medida del lado:";
+			this.label1.Click += new System.EventHandler(this.Label1Click);
 			// 
 			// txtLado
 			// 
-			this.txtLado.Location = new System.Drawing.Point(209, 8);
+			this.txtLado.Location = new System.Drawing.Point(251, 14);
+			this.txtLado.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.txtLado.Name = "txtLado";
-			this.txtLado.Size = new System.Drawing.Size(73, 22);
+			this.txtLado.Size = new System.Drawing.Size(82, 26);
 			this.txtLado.TabIndex = 1;
 			// 
 			// label2
 			// 
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(12, 49);
+			this.label2.Location = new System.Drawing.Point(14, 61);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.Size = new System.Drawing.Size(112, 29);
 			this.label2.TabIndex = 2;
 			this.label2.Text = "Area:";
 			// 
 			// label3
 			// 
 			this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label3.Location = new System.Drawing.Point(12, 83);
+			this.label3.Location = new System.Drawing.Point(15, 103);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(270, 23);
+			this.label3.Size = new System.Drawing.Size(304, 29);
 			this.label3.TabIndex = 3;
 			// 
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(148, 109);
+			this.pictureBox1.Location = new System.Drawing.Point(166, 136);
+			this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(134, 132);
+			this.pictureBox1.Size = new System.Drawing.Size(151, 165);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 4;
 			this.pictureBox1.TabStop = false;
@@ -93,9 +96,10 @@ namespace AreaCubo
 			// button1
 			// 
 			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(12, 109);
+			this.button1.Location = new System.Drawing.Point(12, 152);
+			this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(130, 58);
+			this.button1.Size = new System.Drawing.Size(146, 72);
 			this.button1.TabIndex = 5;
 			this.button1.Text = "Calcular";
 			this.button1.UseVisualStyleBackColor = true;
@@ -104,9 +108,10 @@ namespace AreaCubo
 			// button2
 			// 
 			this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button2.Location = new System.Drawing.Point(12, 173);
+			this.button2.Location = new System.Drawing.Point(12, 232);
+			this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(130, 55);
+			this.button2.Size = new System.Drawing.Size(146, 69);
 			this.button2.TabIndex = 6;
 			this.button2.Text = "Salir";
 			this.button2.UseVisualStyleBackColor = true;
@@ -114,9 +119,11 @@ namespace AreaCubo
 			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(294, 253);
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.ClientSize = new System.Drawing.Size(331, 316);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.pictureBox1);
@@ -124,6 +131,7 @@ namespace AreaCubo
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.txtLado);
 			this.Controls.Add(this.label1);
+			this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.Name = "MainForm";
 			this.Text = "AreaCubo";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

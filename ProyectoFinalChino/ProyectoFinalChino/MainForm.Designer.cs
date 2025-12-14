@@ -50,9 +50,9 @@ namespace ProyectoFinalChino
 			// lblTitulo
 			// 
 			this.lblTitulo.Font = new System.Drawing.Font("Bauhaus 93", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblTitulo.Location = new System.Drawing.Point(138, 9);
+			this.lblTitulo.Location = new System.Drawing.Point(140, 21);
 			this.lblTitulo.Name = "lblTitulo";
-			this.lblTitulo.Size = new System.Drawing.Size(342, 52);
+			this.lblTitulo.Size = new System.Drawing.Size(279, 52);
 			this.lblTitulo.TabIndex = 1;
 			this.lblTitulo.Text = "Bienvenido!";
 			// 
@@ -76,17 +76,19 @@ namespace ProyectoFinalChino
 			// 
 			// btnAcceder
 			// 
+			this.btnAcceder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
 			this.btnAcceder.Font = new System.Drawing.Font("Bauhaus 93", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnAcceder.Location = new System.Drawing.Point(256, 254);
 			this.btnAcceder.Name = "btnAcceder";
 			this.btnAcceder.Size = new System.Drawing.Size(150, 46);
 			this.btnAcceder.TabIndex = 7;
 			this.btnAcceder.Text = "Acceder";
-			this.btnAcceder.UseVisualStyleBackColor = true;
+			this.btnAcceder.UseVisualStyleBackColor = false;
 			this.btnAcceder.Click += new System.EventHandler(this.BtnAccederClick);
 			// 
 			// txtUsuario
 			// 
+			this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
 			this.txtUsuario.Location = new System.Drawing.Point(357, 140);
 			this.txtUsuario.Name = "txtUsuario";
 			this.txtUsuario.Size = new System.Drawing.Size(169, 26);
@@ -94,6 +96,7 @@ namespace ProyectoFinalChino
 			// 
 			// txtContra
 			// 
+			this.txtContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
 			this.txtContra.Location = new System.Drawing.Point(357, 197);
 			this.txtContra.Name = "txtContra";
 			this.txtContra.Size = new System.Drawing.Size(169, 26);
@@ -102,9 +105,9 @@ namespace ProyectoFinalChino
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(12, 76);
+			this.pictureBox1.Location = new System.Drawing.Point(36, 92);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(181, 209);
+			this.pictureBox1.Size = new System.Drawing.Size(157, 183);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 10;
 			this.pictureBox1.TabStop = false;
@@ -114,6 +117,8 @@ namespace ProyectoFinalChino
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(554, 328);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.txtContra);

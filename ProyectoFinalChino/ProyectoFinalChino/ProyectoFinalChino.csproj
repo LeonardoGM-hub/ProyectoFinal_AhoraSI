@@ -51,6 +51,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs" />
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -62,14 +66,65 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\AreaCuadrado\AreaCuadrado\AreaCuadrado.csproj">
+      <Project>{02520F00-408C-410B-A1C5-988A48E9D380}</Project>
+      <Name>AreaCuadrado</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AreaRectangulo\AreaRectangulo\AreaRectangulo.csproj">
+      <Project>{2A721D23-411F-4B7E-B8BE-D050D21FBEC4}</Project>
+      <Name>AreaRectangulo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AreaTriangulo\AreaTriangulo\AreaTriangulo.csproj">
+      <Project>{747F02D7-C237-47E4-939B-40338E383DC4}</Project>
+      <Name>AreaTriangulo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\boleta de calificaciones\boleta de calificaciones\boleta de calificaciones\boleta de calificaciones.csproj">
+      <Project>{8D29B70C-DEE0-4EB2-B8F0-8D88EB8AA945}</Project>
+      <Name>boleta de calificaciones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Empleados\Empleados\Empleados\Empleados.csproj">
+      <Project>{B75998A7-7D74-4687-B735-D730745308B5}</Project>
+      <Name>Empleados</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Factorial\Factorial\Factorial.csproj">
+      <Project>{8FC653E6-6987-4B10-8A62-5F67E7332428}</Project>
+      <Name>Factorial</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fibonnaci\FIGURAS\FIGURAS.csproj">
+      <Project>{54EBE4AE-4DA7-488C-B5EB-400BAA7AB0BB}</Project>
+      <Name>FIGURAS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PerimetroCircunferencia\PerimetroCircunferencia\PerimetroCircunferencia.csproj">
+      <Project>{A044783F-8D3C-4145-99AB-3032EC3E0DCB}</Project>
+      <Name>PerimetroCircunferencia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PerimetroTrapécio\PerimetroTrapécio\PerimetroTrapécio.csproj">
+      <Project>{300B4FA8-6070-4CAE-A18F-AA8CFD28097C}</Project>
+      <Name>PerimetroTrapécio</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Proyecto26\Proyecto26\Proyecto26\Proyecto26.csproj">
       <Project>{9AE4281F-8120-4F39-AFAC-BBB696E1D09B}</Project>
       <Name>Proyecto26</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\VolumenCubo\VolumenCubo\VolumenCubo.csproj">
+      <Project>{5A5A4116-1F60-4C96-8403-F62061F672F3}</Project>
+      <Name>VolumenCubo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\VolumenEsfera\VolumenEsfera\VolumenEsfera.csproj">
+      <Project>{9015DFF4-7B85-4139-AE23-8C58AB023027}</Project>
+      <Name>VolumenEsfera</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\VolumenPiramide\VolumenPiramide\VolumenPiramide.csproj">
+      <Project>{3FD41922-DE56-4C61-A46C-320C77E1A143}</Project>
+      <Name>VolumenPiramide</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
