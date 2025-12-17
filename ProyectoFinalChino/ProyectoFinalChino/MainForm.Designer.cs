@@ -50,27 +50,27 @@ namespace ProyectoFinalChino
 			// lblTitulo
 			// 
 			this.lblTitulo.Font = new System.Drawing.Font("Bauhaus 93", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblTitulo.Location = new System.Drawing.Point(140, 21);
+			this.lblTitulo.Location = new System.Drawing.Point(124, 17);
 			this.lblTitulo.Name = "lblTitulo";
-			this.lblTitulo.Size = new System.Drawing.Size(279, 52);
+			this.lblTitulo.Size = new System.Drawing.Size(248, 42);
 			this.lblTitulo.TabIndex = 1;
 			this.lblTitulo.Text = "Bienvenido!";
 			// 
 			// lblUsuario
 			// 
 			this.lblUsuario.Font = new System.Drawing.Font("Bauhaus 93", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblUsuario.Location = new System.Drawing.Point(234, 143);
+			this.lblUsuario.Location = new System.Drawing.Point(208, 114);
 			this.lblUsuario.Name = "lblUsuario";
-			this.lblUsuario.Size = new System.Drawing.Size(100, 23);
+			this.lblUsuario.Size = new System.Drawing.Size(89, 18);
 			this.lblUsuario.TabIndex = 3;
 			this.lblUsuario.Text = "Usuario:";
 			// 
 			// lblContrasena
 			// 
 			this.lblContrasena.Font = new System.Drawing.Font("Bauhaus 93", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblContrasena.Location = new System.Drawing.Point(199, 198);
+			this.lblContrasena.Location = new System.Drawing.Point(177, 158);
 			this.lblContrasena.Name = "lblContrasena";
-			this.lblContrasena.Size = new System.Drawing.Size(135, 25);
+			this.lblContrasena.Size = new System.Drawing.Size(120, 20);
 			this.lblContrasena.TabIndex = 5;
 			this.lblContrasena.Text = "Contraseña:";
 			// 
@@ -78,9 +78,10 @@ namespace ProyectoFinalChino
 			// 
 			this.btnAcceder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
 			this.btnAcceder.Font = new System.Drawing.Font("Bauhaus 93", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnAcceder.Location = new System.Drawing.Point(256, 254);
+			this.btnAcceder.Location = new System.Drawing.Point(228, 203);
+			this.btnAcceder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.btnAcceder.Name = "btnAcceder";
-			this.btnAcceder.Size = new System.Drawing.Size(150, 46);
+			this.btnAcceder.Size = new System.Drawing.Size(133, 37);
 			this.btnAcceder.TabIndex = 7;
 			this.btnAcceder.Text = "Acceder";
 			this.btnAcceder.UseVisualStyleBackColor = false;
@@ -89,37 +90,41 @@ namespace ProyectoFinalChino
 			// txtUsuario
 			// 
 			this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-			this.txtUsuario.Location = new System.Drawing.Point(357, 140);
+			this.txtUsuario.Location = new System.Drawing.Point(317, 112);
+			this.txtUsuario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.txtUsuario.Name = "txtUsuario";
-			this.txtUsuario.Size = new System.Drawing.Size(169, 26);
+			this.txtUsuario.Size = new System.Drawing.Size(151, 22);
 			this.txtUsuario.TabIndex = 8;
 			// 
 			// txtContra
 			// 
 			this.txtContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-			this.txtContra.Location = new System.Drawing.Point(357, 197);
+			this.txtContra.Location = new System.Drawing.Point(317, 158);
+			this.txtContra.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.txtContra.Name = "txtContra";
-			this.txtContra.Size = new System.Drawing.Size(169, 26);
+			this.txtContra.Size = new System.Drawing.Size(151, 22);
 			this.txtContra.TabIndex = 9;
+			this.txtContra.UseSystemPasswordChar = true;
 			// 
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(36, 92);
+			this.pictureBox1.Location = new System.Drawing.Point(32, 74);
+			this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(157, 183);
+			this.pictureBox1.Size = new System.Drawing.Size(140, 146);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 10;
 			this.pictureBox1.TabStop = false;
 			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.ClientSize = new System.Drawing.Size(554, 328);
+			this.ClientSize = new System.Drawing.Size(492, 262);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.txtContra);
 			this.Controls.Add(this.txtUsuario);
@@ -128,6 +133,7 @@ namespace ProyectoFinalChino
 			this.Controls.Add(this.lblUsuario);
 			this.Controls.Add(this.lblTitulo);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.Name = "MainForm";
 			this.Text = "ProyectoFinalChino";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

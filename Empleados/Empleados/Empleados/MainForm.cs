@@ -20,7 +20,6 @@ namespace Empleados
 	/// </summary>
 	public partial class MainForm : Form
 	{
-		
 		public MainForm()
 		{
 			//
@@ -32,33 +31,11 @@ namespace Empleados
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		public bool AgregarProducto(int Codigo, string Nombre, string puesto, string fechaNac, string sexo, string Estado)
-		{
-			MySqlConnection det = new MySqlConnection();
-			det.ConnectionString = "server=localhost; database=Empleados; user=root; pwd=J0su3FZJ;";
-			det.Open();
-			
-			string strSQL = "insert into detalles (Codigo, Nombre, puesto, fechaNac, sexo, Estado)" +
-                 "values (@Codigo, @Nombre, @puesto, @fechaNac, @sexo, @Estado)";
-            MySqlCommand comando = new MySqlCommand(strSQL, det);
-            comando.Parameters.AddWithValue("Codigo", Codigo);
-            comando.Parameters.AddWithValue("Nombre", Nombre);
-            comando.Parameters.AddWithValue("puesto", puesto);
-            comando.Parameters.AddWithValue("fechaNac", fechaNac);
-            comando.Parameters.AddWithValue("sexo", sexo);
-            comando.Parameters.AddWithValue("Estado", Estado);
-            comando.ExecuteNonQuery();
-            MessageBox.Show("Producto agregado");
-            
-            comando.Dispose();
-            det.Close();
-            det.Dispose();
-            return true;
-		}
 		
 		
 		void BtnGuardarClick(object sender, EventArgs e)
 		{
+			
 			if(txtCodigo.Text == ""){
 				errpError.SetError(txtCodigo, "Debe introducir su codigo");
 			}
@@ -88,7 +65,14 @@ namespace Empleados
 				Estado = "Contratado";
 			}
 			
-			AgregarProducto(C, txtNombre.Text,PUS,txtFecha.Text,sex,Estado);
+			string wza = "server=localhost; database=Empleados; uid=root; pwd=;";
+			
+			MySqlConnection cnn = new MySqlConnection(wza);
+			cnn.Open();
+			
+			
+			cnn.Close();
+			
 			
 			dgvDatos.Rows.Add(
 			

@@ -32,24 +32,7 @@ namespace Proyecto26
 		}
 		public bool AgregarProducto(string Producto, double Precio, int Cantidad, double Total)
 		{
-			MySqlConnection det = new MySqlConnection();
-			det.ConnectionString = "server=127.0.0.1; database=Proyecto26; user=root; pwd=root;";
-				det.Open();
-				
-				string strSQL = "insert into Ticket (Producto, Precio, Cantidad, Total)" +
-	                 "values (@Producto, @Precio, @Cantidad, @Total)";
-	            MySqlCommand comando = new MySqlCommand(strSQL, det);
-	            comando.Parameters.AddWithValue("Producto", Producto);
-	            comando.Parameters.AddWithValue("Precio", Precio);
-	            comando.Parameters.AddWithValue("Cantidad", Cantidad);
-	            comando.Parameters.AddWithValue("Total", Total);
-            comando.ExecuteNonQuery();
-            MessageBox.Show("Producto agregado");
-            
-            comando.Dispose();
-            det.Close();
-            det.Dispose();
-            return true;
+			
 		}
 		Dictionary<string, decimal> preciosProductos = new Dictionary<string, decimal>()
 			{
