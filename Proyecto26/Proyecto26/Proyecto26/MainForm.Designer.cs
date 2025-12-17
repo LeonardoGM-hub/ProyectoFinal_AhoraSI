@@ -75,9 +75,10 @@ namespace Proyecto26
 			this.label1.BackColor = System.Drawing.Color.SaddleBrown;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-			this.label1.Location = new System.Drawing.Point(119, 45);
+			this.label1.Location = new System.Drawing.Point(159, 55);
+			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(638, 51);
+			this.label1.Size = new System.Drawing.Size(851, 63);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Pasteleria Espacial para ti";
 			// 
@@ -85,8 +86,9 @@ namespace Proyecto26
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
 			this.pictureBox1.Location = new System.Drawing.Point(0, 2);
+			this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(429, 122);
+			this.pictureBox1.Size = new System.Drawing.Size(572, 150);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 1;
 			this.pictureBox1.TabStop = false;
@@ -94,9 +96,10 @@ namespace Proyecto26
 			// pictureBox2
 			// 
 			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-			this.pictureBox2.Location = new System.Drawing.Point(425, 2);
+			this.pictureBox2.Location = new System.Drawing.Point(567, 2);
+			this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.pictureBox2.Name = "pictureBox2";
-			this.pictureBox2.Size = new System.Drawing.Size(459, 122);
+			this.pictureBox2.Size = new System.Drawing.Size(612, 150);
 			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox2.TabIndex = 2;
 			this.pictureBox2.TabStop = false;
@@ -104,9 +107,10 @@ namespace Proyecto26
 			// rdbDulce
 			// 
 			this.rdbDulce.BackColor = System.Drawing.Color.Linen;
-			this.rdbDulce.Location = new System.Drawing.Point(358, 130);
+			this.rdbDulce.Location = new System.Drawing.Point(477, 160);
+			this.rdbDulce.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.rdbDulce.Name = "rdbDulce";
-			this.rdbDulce.Size = new System.Drawing.Size(54, 24);
+			this.rdbDulce.Size = new System.Drawing.Size(72, 30);
 			this.rdbDulce.TabIndex = 3;
 			this.rdbDulce.TabStop = true;
 			this.rdbDulce.Text = "Dulce";
@@ -116,9 +120,10 @@ namespace Proyecto26
 			// rdbSalado
 			// 
 			this.rdbSalado.BackColor = System.Drawing.Color.Linen;
-			this.rdbSalado.Location = new System.Drawing.Point(437, 130);
+			this.rdbSalado.Location = new System.Drawing.Point(583, 160);
+			this.rdbSalado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.rdbSalado.Name = "rdbSalado";
-			this.rdbSalado.Size = new System.Drawing.Size(59, 24);
+			this.rdbSalado.Size = new System.Drawing.Size(79, 30);
 			this.rdbSalado.TabIndex = 4;
 			this.rdbSalado.TabStop = true;
 			this.rdbSalado.Text = "Salado";
@@ -128,75 +133,84 @@ namespace Proyecto26
 			// label2
 			// 
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(12, 166);
+			this.label2.Location = new System.Drawing.Point(16, 204);
+			this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(162, 22);
+			this.label2.Size = new System.Drawing.Size(216, 27);
 			this.label2.TabIndex = 5;
 			this.label2.Text = "Selecciona Producto: ";
 			// 
 			// cmbProductos
 			// 
 			this.cmbProductos.FormattingEnabled = true;
-			this.cmbProductos.Location = new System.Drawing.Point(180, 165);
+			this.cmbProductos.Location = new System.Drawing.Point(240, 203);
+			this.cmbProductos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.cmbProductos.Name = "cmbProductos";
-			this.cmbProductos.Size = new System.Drawing.Size(168, 21);
+			this.cmbProductos.Size = new System.Drawing.Size(223, 24);
 			this.cmbProductos.TabIndex = 7;
 			this.cmbProductos.SelectedIndexChanged += new System.EventHandler(this.CmbProductosSelectedIndexChanged);
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(392, 168);
+			this.label3.Location = new System.Drawing.Point(523, 207);
+			this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(44, 23);
+			this.label3.Size = new System.Drawing.Size(59, 28);
 			this.label3.TabIndex = 8;
 			this.label3.Text = "Precio";
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(497, 168);
+			this.label4.Location = new System.Drawing.Point(663, 207);
+			this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(52, 23);
+			this.label4.Size = new System.Drawing.Size(69, 28);
 			this.label4.TabIndex = 9;
 			this.label4.Text = "Cantidad";
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(623, 168);
+			this.label5.Location = new System.Drawing.Point(831, 207);
+			this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(40, 23);
+			this.label5.Size = new System.Drawing.Size(53, 28);
 			this.label5.TabIndex = 10;
 			this.label5.Text = "Total";
 			// 
 			// txtPrecio
 			// 
-			this.txtPrecio.Location = new System.Drawing.Point(358, 189);
+			this.txtPrecio.Location = new System.Drawing.Point(477, 233);
+			this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.txtPrecio.Name = "txtPrecio";
 			this.txtPrecio.ReadOnly = true;
-			this.txtPrecio.Size = new System.Drawing.Size(100, 20);
+			this.txtPrecio.Size = new System.Drawing.Size(132, 22);
 			this.txtPrecio.TabIndex = 11;
 			// 
 			// txtCantidad
 			// 
-			this.txtCantidad.Location = new System.Drawing.Point(471, 189);
+			this.txtCantidad.Location = new System.Drawing.Point(628, 233);
+			this.txtCantidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.txtCantidad.Name = "txtCantidad";
-			this.txtCantidad.Size = new System.Drawing.Size(100, 20);
+			this.txtCantidad.Size = new System.Drawing.Size(132, 22);
 			this.txtCantidad.TabIndex = 12;
 			this.txtCantidad.TextChanged += new System.EventHandler(this.TxtCantidadTextChanged);
 			// 
 			// txtTotal
 			// 
-			this.txtTotal.Location = new System.Drawing.Point(589, 189);
+			this.txtTotal.Location = new System.Drawing.Point(785, 233);
+			this.txtTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.txtTotal.Name = "txtTotal";
 			this.txtTotal.ReadOnly = true;
-			this.txtTotal.Size = new System.Drawing.Size(100, 20);
+			this.txtTotal.Size = new System.Drawing.Size(132, 22);
 			this.txtTotal.TabIndex = 13;
 			// 
 			// btnAgregar
 			// 
 			this.btnAgregar.BackColor = System.Drawing.Color.Peru;
-			this.btnAgregar.Location = new System.Drawing.Point(713, 163);
+			this.btnAgregar.Location = new System.Drawing.Point(951, 201);
+			this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnAgregar.Name = "btnAgregar";
-			this.btnAgregar.Size = new System.Drawing.Size(123, 23);
+			this.btnAgregar.Size = new System.Drawing.Size(164, 28);
 			this.btnAgregar.TabIndex = 14;
 			this.btnAgregar.Text = "Agregar producto";
 			this.btnAgregar.UseVisualStyleBackColor = false;
@@ -205,9 +219,10 @@ namespace Proyecto26
 			// btnEliminar
 			// 
 			this.btnEliminar.BackColor = System.Drawing.Color.Peru;
-			this.btnEliminar.Location = new System.Drawing.Point(713, 192);
+			this.btnEliminar.Location = new System.Drawing.Point(951, 236);
+			this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnEliminar.Name = "btnEliminar";
-			this.btnEliminar.Size = new System.Drawing.Size(123, 23);
+			this.btnEliminar.Size = new System.Drawing.Size(164, 28);
 			this.btnEliminar.TabIndex = 15;
 			this.btnEliminar.Text = "Eliminar producto";
 			this.btnEliminar.UseVisualStyleBackColor = false;
@@ -216,15 +231,16 @@ namespace Proyecto26
 			// listView1
 			// 
 			this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-			this.Productos,
-			this.Precio,
-			this.Cantidad,
-			this.Total});
+									this.Productos,
+									this.Precio,
+									this.Cantidad,
+									this.Total});
 			this.listView1.FullRowSelect = true;
 			this.listView1.GridLines = true;
-			this.listView1.Location = new System.Drawing.Point(12, 215);
+			this.listView1.Location = new System.Drawing.Point(16, 265);
+			this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.listView1.Name = "listView1";
-			this.listView1.Size = new System.Drawing.Size(357, 155);
+			this.listView1.Size = new System.Drawing.Size(475, 190);
 			this.listView1.TabIndex = 16;
 			this.listView1.UseCompatibleStateImageBehavior = false;
 			this.listView1.View = System.Windows.Forms.View.Details;
@@ -248,55 +264,62 @@ namespace Proyecto26
 			// 
 			// label6
 			// 
-			this.label6.Location = new System.Drawing.Point(375, 215);
+			this.label6.Location = new System.Drawing.Point(500, 265);
+			this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(100, 23);
+			this.label6.Size = new System.Drawing.Size(133, 28);
 			this.label6.TabIndex = 17;
 			this.label6.Text = "Subtotal";
 			// 
 			// txtSubtotal
 			// 
-			this.txtSubtotal.Location = new System.Drawing.Point(375, 228);
+			this.txtSubtotal.Location = new System.Drawing.Point(500, 281);
+			this.txtSubtotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.txtSubtotal.Name = "txtSubtotal";
-			this.txtSubtotal.Size = new System.Drawing.Size(100, 20);
+			this.txtSubtotal.Size = new System.Drawing.Size(132, 22);
 			this.txtSubtotal.TabIndex = 18;
 			// 
 			// label7
 			// 
-			this.label7.Location = new System.Drawing.Point(375, 251);
+			this.label7.Location = new System.Drawing.Point(500, 309);
+			this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(100, 23);
+			this.label7.Size = new System.Drawing.Size(133, 28);
 			this.label7.TabIndex = 19;
 			this.label7.Text = "Descuento";
 			// 
 			// txtDescuento
 			// 
-			this.txtDescuento.Location = new System.Drawing.Point(375, 267);
+			this.txtDescuento.Location = new System.Drawing.Point(500, 329);
+			this.txtDescuento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.txtDescuento.Name = "txtDescuento";
-			this.txtDescuento.Size = new System.Drawing.Size(100, 20);
+			this.txtDescuento.Size = new System.Drawing.Size(132, 22);
 			this.txtDescuento.TabIndex = 20;
 			// 
 			// label8
 			// 
-			this.label8.Location = new System.Drawing.Point(375, 290);
+			this.label8.Location = new System.Drawing.Point(500, 357);
+			this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(100, 23);
+			this.label8.Size = new System.Drawing.Size(133, 28);
 			this.label8.TabIndex = 21;
 			this.label8.Text = "Importe a pagar";
 			// 
 			// txtImporte
 			// 
-			this.txtImporte.Location = new System.Drawing.Point(375, 307);
+			this.txtImporte.Location = new System.Drawing.Point(500, 378);
+			this.txtImporte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.txtImporte.Name = "txtImporte";
-			this.txtImporte.Size = new System.Drawing.Size(100, 20);
+			this.txtImporte.Size = new System.Drawing.Size(132, 22);
 			this.txtImporte.TabIndex = 22;
 			// 
 			// button3
 			// 
 			this.button3.BackColor = System.Drawing.Color.Peru;
-			this.button3.Location = new System.Drawing.Point(602, 268);
+			this.button3.Location = new System.Drawing.Point(802, 330);
+			this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(115, 59);
+			this.button3.Size = new System.Drawing.Size(153, 73);
 			this.button3.TabIndex = 25;
 			this.button3.Text = "Imprimir";
 			this.button3.UseVisualStyleBackColor = false;
@@ -305,9 +328,10 @@ namespace Proyecto26
 			// btnBorrar
 			// 
 			this.btnBorrar.BackColor = System.Drawing.Color.Peru;
-			this.btnBorrar.Location = new System.Drawing.Point(481, 267);
+			this.btnBorrar.Location = new System.Drawing.Point(641, 329);
+			this.btnBorrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnBorrar.Name = "btnBorrar";
-			this.btnBorrar.Size = new System.Drawing.Size(115, 59);
+			this.btnBorrar.Size = new System.Drawing.Size(153, 73);
 			this.btnBorrar.TabIndex = 26;
 			this.btnBorrar.Text = "Borrar";
 			this.btnBorrar.UseVisualStyleBackColor = false;
@@ -316,9 +340,10 @@ namespace Proyecto26
 			// btnSalir
 			// 
 			this.btnSalir.BackColor = System.Drawing.Color.Peru;
-			this.btnSalir.Location = new System.Drawing.Point(723, 268);
+			this.btnSalir.Location = new System.Drawing.Point(964, 330);
+			this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnSalir.Name = "btnSalir";
-			this.btnSalir.Size = new System.Drawing.Size(115, 59);
+			this.btnSalir.Size = new System.Drawing.Size(153, 73);
 			this.btnSalir.TabIndex = 27;
 			this.btnSalir.Text = "Salir";
 			this.btnSalir.UseVisualStyleBackColor = false;
@@ -326,10 +351,10 @@ namespace Proyecto26
 			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.PeachPuff;
-			this.ClientSize = new System.Drawing.Size(875, 382);
+			this.ClientSize = new System.Drawing.Size(1167, 470);
 			this.Controls.Add(this.btnSalir);
 			this.Controls.Add(this.btnBorrar);
 			this.Controls.Add(this.button3);
@@ -356,13 +381,13 @@ namespace Proyecto26
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.pictureBox2);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.Name = "MainForm";
 			this.Text = "Proyecto26";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
-
 		}
 		private System.Windows.Forms.Button btnBorrar;
 		private System.Windows.Forms.Button button3;
